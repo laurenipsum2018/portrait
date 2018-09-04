@@ -1,0 +1,76 @@
+#head-container {
+
+  .head {
+    display: block;
+    position: absolute;
+    width: 110px;
+    height: 130px;
+    border-radius: 100%;
+    background-color: $skin;
+
+    .face {
+
+      .eyes {
+        margin: 54px 0 0 24px;
+        animation: blink 3s infinite;
+
+        .eye-lhs {
+          display: inline-block;
+          position: relative;
+          width: 10px;
+          height: 10px;
+          border-radius: 100%;
+          background-color: $black;
+        }
+
+        .eye-rhs {
+          display: inline-block;
+          position: relative;
+          width: 10px;
+          height: 10px;
+          border-radius: 100%;
+          background-color: $black;
+          margin: 0 0 0 38px;
+        }
+      } //end eyes
+
+      .blush {
+        margin: 0 0 0 16px;
+        z-index: 2;
+
+        .blush-lhs {
+          display: inline-block;
+          position: relative;
+          width: 26px;
+          height: 26px;
+          border-radius: 100%;
+          background-color: $blush;
+        }
+
+        .blush-rhs {
+          display: inline-block;
+          position: relative;
+          width: 26px;
+          height: 26px;
+          border-radius: 100%;
+          background-color: $blush;
+          margin: 0 0 0 24px;
+        }
+      } // end blush
+
+      .nose {
+        display: block;
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-top: 10px solid transparent;
+        border-bottom: 14px solid $red;
+        border-left: 10px solid transparent;
+        z-index: 3;
+        margin: -6px 0 0 48px;
+      }
+
+    } // end face
+  } // end head
+
+}

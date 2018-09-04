@@ -1,0 +1,83 @@
+@keyframes blink {
+  0% {
+    transform: scaleY(0.2); }
+  3% {
+    transform: scaleY(1); }
+  6% {
+    transform: scaleY(0.1); }
+  10% {
+    transform: scaleY(1); } }
+#head-container .head {
+  display: block;
+  position: absolute;
+  width: 110px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: #FFF1D0; }
+  #head-container .head .face .eyes {
+    margin: 54px 0 0 24px;
+    animation: blink 3s infinite; }
+    #head-container .head .face .eyes .eye-lhs {
+      display: inline-block;
+      position: relative;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: #121212; }
+    #head-container .head .face .eyes .eye-rhs {
+      display: inline-block;
+      position: relative;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: #121212;
+      margin: 0 0 0 38px; }
+  #head-container .head .face .blush {
+    margin: 0 0 0 16px;
+    z-index: 2; }
+    #head-container .head .face .blush .blush-lhs {
+      display: inline-block;
+      position: relative;
+      width: 26px;
+      height: 26px;
+      border-radius: 100%;
+      background-color: #FFC3A3; }
+    #head-container .head .face .blush .blush-rhs {
+      display: inline-block;
+      position: relative;
+      width: 26px;
+      height: 26px;
+      border-radius: 100%;
+      background-color: #FFC3A3;
+      margin: 0 0 0 24px; }
+  #head-container .head .face .nose {
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 14px solid #E89188;
+    border-left: 10px solid transparent;
+    z-index: 3;
+    margin: -6px 0 0 48px; }
+
+#hair {
+  z-index: 4;
+  position: absolute;
+  margin: -8px 0 0 0; }
+  #hair .bangs {
+    width: 110px;
+    height: 60px;
+    background-color: #645A4C;
+    border-radius: 90% 90% 100% 0; }
+
+body {
+  background-color: #FFE0E0; }
+
+#person {
+  display: block;
+  position: absolute;
+  top: 20%;
+  margin-left: 46%; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+// Base
+@import "base/variables"; // Colours
+@import "base/animations";
+
+// Components
+@import "components/head";
+@import "components/hair";
+
+body {
+  background-color: $pink;
+}
+
+#person {
+  display: block;
+  position: absolute;
+  top: 20%;
+  margin-left: 46%;
+}
