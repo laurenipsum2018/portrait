@@ -18,7 +18,7 @@
           display: inline-block;
           position: relative;
           width: 10px;
-          height: 10px;
+          height: 12px;
           border-radius: 100%;
           background-color: $black;
         }
@@ -27,7 +27,7 @@
           display: inline-block;
           position: relative;
           width: 10px;
-          height: 10px;
+          height: 12px;
           border-radius: 100%;
           background-color: $black;
           margin: 0 0 0 38px;
@@ -64,10 +64,14 @@
         width: 0px;
         height: 0px;
         border-top: 10px solid transparent;
-        border-bottom: 14px solid $red;
+        border-bottom: 12px solid $red;
         border-left: 10px solid transparent;
         z-index: 3;
-        margin: -6px 0 0 48px;
+        margin: -8px 0 0 49px;
+      }
+
+      .mouth {
+
       }
 
     } // end face
