@@ -1,4 +1,6 @@
 #head-container {
+  z-index: 2;
+  position: absolute;
 
   .head {
     display: block;
@@ -35,7 +37,7 @@
       } //end eyes
 
       .blush {
-        margin: 0 0 0 16px;
+        margin: -6px 0 0 15px;
         z-index: 2;
 
         .blush-lhs {
@@ -71,7 +73,14 @@
       }
 
       .mouth {
-
+        display: block;
+        position: relative;
+        width: 16px;
+        height: 10px;
+        border-radius: 10px 15px 70px 70px;
+        background-color: $black-light;
+        top: 26px;
+        left: 47px;
       }
 
     } // end face

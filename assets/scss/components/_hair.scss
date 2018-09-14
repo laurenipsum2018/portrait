@@ -1,4 +1,4 @@
-#hair {
+#hair-front {
   z-index: 4;
   position: absolute;
   margin: -8px 0 0 0;
@@ -8,6 +8,19 @@
     height: 60px;
     background-color: $brown;
     border-radius: 90% 90% 100% 0;
+  }
+}
+
+#hair-back {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  margin: 0 0 0 -10px;
+
+  .back {
+    width: 130px;
+    height: 200px;
+    background-color: $brown;
   }
 
 }
