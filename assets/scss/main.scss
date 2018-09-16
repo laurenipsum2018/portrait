@@ -6,6 +6,7 @@
 @import "components/head";
 @import "components/hair";
 @import "components/shirt";
+@import "components/legs";
 
 body {
   background-color: $blue;
@@ -14,6 +15,6 @@ body {
 #person {
   display: block;
   position: absolute;
-  top: 14%;
+  top: 12%;
   margin-left: 46%;
 }
