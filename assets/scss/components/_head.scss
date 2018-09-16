@@ -81,6 +81,17 @@
         background-color: $black-light;
         top: 26px;
         left: 47px;
+
+        .tongue {
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 5px;
+          border-radius: 10px 15px 70px 70px;
+          background-color: $red-tongue;
+          left: 4px;
+          top: 5px;
+        }
       }
 
     } // end face

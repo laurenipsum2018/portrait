@@ -1,26 +1,37 @@
 #hair-front {
   z-index: 4;
   position: absolute;
-  margin: -8px 0 0 0;
+  margin: -12px 0 0 -4px;
 
   .bangs {
-    width: 110px;
+    width: 112px;
     height: 60px;
     background-color: $brown;
     border-radius: 90% 90% 100% 0;
+    transform: rotate(-8deg);
   }
 }
 
 #hair-back {
   z-index: 1;
-  display: block;
-  position: absolute;
-  margin: 0 0 0 -10px;
 
-  .back {
-    width: 130px;
+  .back-lhs {
+    display: block;
+    position: absolute;
+    margin: 0px 0 0 -30px;
+    width: 110px;
     height: 200px;
     background-color: $brown;
+    border-radius: 100% 100% 90% 80%;
   }
-
+  .back-rhs {
+    display: block;
+    position: relative;
+    margin: 0 0 0 36px;
+    width: 100px;
+    height: 200px;
+    background-color: $brown;
+    border-radius: 100% 100% 90% 80%;
+    transform: rotate(-4deg);
+  }
 }
