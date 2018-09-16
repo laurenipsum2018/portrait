@@ -2,10 +2,24 @@
   z-index: 1;
   display: block;
   position: absolute;
-  width: 40px;
-  height: 90px;
+  width: 30px;
+  height: 110px;
   background-color: $skin;
   border-radius: 10px 15px 50px 50px;
-  top: 240px;
-  right: 150px;
+  top: 220px;
+  right: 156px;
+  transform: rotate(20deg);
+}
+
+.hand-lhs {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 60px;
+  background-color: $skin;
+  border-radius: 100%;
+  transform: rotate(20deg);
+  top: 304px;
+  right: 174px;
 }
