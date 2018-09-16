@@ -8,7 +8,7 @@
   10% {
     transform: scaleY(1); } }
 #head-container {
-  z-index: 2;
+  z-index: 4;
   position: absolute; }
   #head-container .head {
     display: block;
@@ -82,8 +82,30 @@
         left: 4px;
         top: 5px; }
 
+.neck-shadow {
+  z-index: 3;
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background-color: #EEDAAB;
+  border-radius: 10px 15px 70px 70px;
+  top: 120px;
+  left: 34px; }
+
+.neck {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 44px;
+  background-color: #FFF1D0;
+  border-radius: 10px 15px 50px 50px;
+  top: 120px;
+  left: 34px; }
+
 #hair-front {
-  z-index: 4;
+  z-index: 5;
   position: absolute;
   margin: -12px 0 0 -4px; }
   #hair-front .bangs {
@@ -113,8 +135,19 @@
     border-radius: 100% 100% 90% 80%;
     transform: rotate(-4deg); }
 
+#shirt {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  width: 160px;
+  height: 100px;
+  background-color: #FEC3C3;
+  top: 136px;
+  right: 2px;
+  border-radius: 100% 100% 90% 80%; }
+
 body {
-  background-color: #FFE0E0; }
+  background-color: #F0F7FC; }
 
 #person {
   display: block;

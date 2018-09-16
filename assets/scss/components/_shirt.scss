@@ -1,0 +1,11 @@
+#shirt {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  width: 160px;
+  height: 100px;
+  background-color: $pink-dress;
+  top: 136px;
+  right: 2px;
+  border-radius: 100% 100% 90% 80%;
+}
