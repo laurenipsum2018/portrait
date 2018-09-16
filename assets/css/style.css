@@ -135,7 +135,7 @@
     border-radius: 100% 100% 90% 80%;
     transform: rotate(-4deg); }
 
-#shirt {
+.top {
   z-index: 1;
   display: block;
   position: absolute;
@@ -146,13 +146,24 @@
   right: 2px;
   border-radius: 100% 100% 90% 80%; }
 
+.mid {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 130px;
+  background-color: #FEC3C3;
+  border-radius: 0 0 20% 20%;
+  top: 194px;
+  right: 22px; }
+
 body {
   background-color: #F0F7FC; }
 
 #person {
   display: block;
   position: absolute;
-  top: 20%;
+  top: 14%;
   margin-left: 46%; }
 
 /*# sourceMappingURL=style.css.map */
