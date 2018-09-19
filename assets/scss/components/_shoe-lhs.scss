@@ -1,0 +1,71 @@
+#shoe {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  transform: rotateY(180deg);
+
+  .shoe-lhs-top {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: $white;
+    border-radius: 50%;
+    top: 580px;
+    left: 10px;
+    transform: rotate(0deg);
+  }
+
+  .shoe-lhs-mid {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: $white;
+    top: 590px;
+    left: 10px;
+    transform: rotate(0deg);
+  }
+
+  .shoe-lhs {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    background-color: $white;
+    border-radius: 40%;
+    top: 608px;
+    left: 14px;
+    transform: rotate(-14deg);
+  }
+
+  .shoe-lhs-btm-r {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 40px;
+    background-color: $white;
+    border-radius: 100%;
+    top: 650px;
+    left: 22px;
+  }
+
+  .shoe-lhs-btm {
+    z-index: 0;
+    display: block;
+    position: absolute;
+    width: 44px;
+    height: 84px;
+    background-color: $pink;
+    border-radius: 100%;
+    top: 620px;
+    left: 10px;
+    transform: rotate(-22deg);
+  }
+} // end shoe lhs

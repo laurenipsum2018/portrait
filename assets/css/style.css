@@ -252,64 +252,6 @@
   left: 104px;
   transform: rotate(5deg); }
 
-#shoe {
-  display: block;
-  position: absolute;
-  top: 30px; }
-  #shoe .shoe-lhs-top {
-    z-index: 2;
-    display: block;
-    position: absolute;
-    width: 40px;
-    height: 20px;
-    background-color: #C9925A;
-    border-radius: 50%;
-    top: 580px;
-    left: 10px;
-    transform: rotate(0deg); }
-  #shoe .shoe-lhs-mid {
-    z-index: 2;
-    display: block;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background-color: #C9925A;
-    top: 590px;
-    left: 10px;
-    transform: rotate(0deg); }
-  #shoe .shoe-lhs {
-    z-index: 2;
-    display: block;
-    position: absolute;
-    width: 40px;
-    height: 80px;
-    background-color: #C9925A;
-    border-radius: 40%;
-    top: 608px;
-    left: 14px;
-    transform: rotate(-14deg); }
-  #shoe .shoe-lhs-btm-r {
-    z-index: 2;
-    display: block;
-    position: absolute;
-    width: 36px;
-    height: 40px;
-    background-color: #C9925A;
-    border-radius: 100%;
-    top: 650px;
-    left: 22px; }
-  #shoe .shoe-lhs-btm {
-    z-index: 0;
-    display: block;
-    position: absolute;
-    width: 44px;
-    height: 84px;
-    background-color: #806447;
-    border-radius: 100%;
-    top: 620px;
-    left: 10px;
-    transform: rotate(-22deg); }
-
 .leg-lhs {
   z-index: 1;
   display: block;
@@ -331,6 +273,125 @@
   border-radius: 10px 15px 50px 50px;
   top: 540px;
   left: 62px; }
+
+#shoe {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  transform: rotateY(180deg); }
+  #shoe .shoe-lhs-top {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 580px;
+    left: 10px;
+    transform: rotate(0deg); }
+  #shoe .shoe-lhs-mid {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    top: 590px;
+    left: 10px;
+    transform: rotate(0deg); }
+  #shoe .shoe-lhs {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 40%;
+    top: 608px;
+    left: 14px;
+    transform: rotate(-14deg); }
+  #shoe .shoe-lhs-btm-r {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    top: 650px;
+    left: 22px; }
+  #shoe .shoe-lhs-btm {
+    z-index: 0;
+    display: block;
+    position: absolute;
+    width: 44px;
+    height: 84px;
+    background-color: #FFE0E0;
+    border-radius: 100%;
+    top: 620px;
+    left: 10px;
+    transform: rotate(-22deg); }
+
+#shoe-rhs {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 50px; }
+  #shoe-rhs .shoe-rhs-top {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 580px;
+    left: 10px; }
+  #shoe-rhs .shoe-rhs-mid {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    top: 590px;
+    left: 10px;
+    transform: rotate(0deg); }
+  #shoe-rhs .shoe-rhs {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 40%;
+    top: 608px;
+    left: 14px;
+    transform: rotate(-14deg); }
+  #shoe-rhs .shoe-rhs-btm-r {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    top: 650px;
+    left: 22px; }
+  #shoe-rhs .shoe-rhs-btm {
+    z-index: 0;
+    display: block;
+    position: absolute;
+    width: 44px;
+    height: 84px;
+    background-color: #FFE0E0;
+    border-radius: 100%;
+    top: 620px;
+    left: 10px;
+    transform: rotate(-22deg); }
 
 body {
   background-color: #F0F7FC; }

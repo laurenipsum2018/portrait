@@ -1,0 +1,68 @@
+#shoe-rhs {
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+
+  .shoe-rhs-top {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: $white;
+    border-radius: 50%;
+    top: 580px;
+    left: 10px;
+  }
+
+  .shoe-rhs-mid {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: $white;
+    top: 590px;
+    left: 10px;
+    transform: rotate(0deg);
+  }
+
+  .shoe-rhs {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    background-color: $white;
+    border-radius: 40%;
+    top: 608px;
+    left: 14px;
+    transform: rotate(-14deg);
+  }
+
+  .shoe-rhs-btm-r {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 40px;
+    background-color: $white;
+    border-radius: 100%;
+    top: 650px;
+    left: 22px;
+  }
+
+  .shoe-rhs-btm {
+    z-index: 0;
+    display: block;
+    position: absolute;
+    width: 44px;
+    height: 84px;
+    background-color: $pink;
+    border-radius: 100%;
+    top: 620px;
+    left: 10px;
+    transform: rotate(-22deg);
+  }
+}
