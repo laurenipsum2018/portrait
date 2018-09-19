@@ -221,12 +221,12 @@
   z-index: 2;
   display: block;
   position: absolute;
-  width: 178px;
-  height: 100px;
+  width: 170px;
+  height: 90px;
   background-color: #FEC3C3;
-  border-radius: 40% 40% 0 0;
-  top: 460px;
-  right: -6px; }
+  border-radius: 100%;
+  top: 478px;
+  right: -4px; }
 
 .arm-lhs {
   z-index: 1;
@@ -256,8 +256,8 @@
   z-index: 1;
   display: block;
   position: absolute;
-  width: 30px;
-  height: 90px;
+  width: 36px;
+  height: 100px;
   background-color: #FFF1D0;
   border-radius: 10px 15px 50px 50px;
   top: 540px;
@@ -267,8 +267,8 @@
   z-index: 1;
   display: block;
   position: absolute;
-  width: 30px;
-  height: 90px;
+  width: 36px;
+  height: 100px;
   background-color: #FFF1D0;
   border-radius: 10px 15px 50px 50px;
   top: 540px;
