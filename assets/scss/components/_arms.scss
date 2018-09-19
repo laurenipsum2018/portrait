@@ -23,3 +23,30 @@
   top: 304px;
   right: 174px;
 }
+
+
+.arm-rhs {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 110px;
+  background-color: $skin;
+  border-radius: 10px 15px 50px 50px;
+  top: 220px;
+  left: 128px;
+  transform: rotate(-20deg);
+}
+
+.hand-rhs {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 60px;
+  background-color: $skin;
+  border-radius: 100%;
+  transform: rotate(-20deg);
+  top: 304px;
+  left: 148px;
+}
